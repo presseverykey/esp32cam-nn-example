@@ -1,2 +1,10 @@
-idf_component_register(SRCS "main.c" "camera.c" "network.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(
+  SRCS 
+    "main.cpp"
+    "camera.cpp"
+    "network.cpp"
+    "leds.cpp"
+    "ai.cpp"
+    "person_detect_model_data.cc"
+  INCLUDE_DIRS 
+    ".")
