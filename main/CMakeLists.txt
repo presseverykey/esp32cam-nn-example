@@ -5,6 +5,7 @@ idf_component_register(
     "network.cpp"
     "leds.cpp"
     "ai.cpp"
+    "lock.cpp"
     "person_detect_model_data.cc"
   INCLUDE_DIRS 
     ".")

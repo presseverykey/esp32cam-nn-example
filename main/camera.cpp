@@ -77,20 +77,3 @@ esp_err_t camera_init(){
 
     return ESP_OK;
 }
-
-/*
-esp_err_t camera_capture(){
-    //acquire a frame
-    camera_fb_t * fb = esp_camera_fb_get();
-    if (!fb) {
-        ESP_LOGE(TAG, "Camera Capture Failed");
-        return ESP_FAIL;
-    }
-    //replace this with your own function
-    process_image(fb->width, fb->height, fb->format, fb->buf, fb->len);
-  
-    //return the frame buffer back to the driver for reuse
-    esp_camera_fb_return(fb);
-    return ESP_OK;
-}
-*/
