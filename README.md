@@ -126,7 +126,7 @@ $ git clone --recursive git@github.com:presseverykey/esp32cam-nn-example.git
 # if you already cloned the repo, but did not use the `--recursive` flag,
 # you will need to execute:
 
-$ git submodule update --recursive
+$ git submodule update --init --recursive
 
 ```
 
